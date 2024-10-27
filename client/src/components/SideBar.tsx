@@ -87,7 +87,7 @@ const SideBar: React.FC = () => {
         </div>
 
         {/* Navigation links */}
-        <div className={`flex flex-col space-y-2 md:space-y-3 text-base md:text-lg gap-2 p-4 ${!isOpen && "hidden"}`}>
+        <div className={`flex flex-col space-y-0 md:space-y-1 text-base md:text-lg gap-2 p-1 ${!isOpen && "hidden"}`}>
           <NavLink to="/login" className={({ isActive }) => (isActive ? "flex items-center space-x-2 p-2 text-blue-500" : "flex items-center space-x-2 p-2 hover:text-blue-500")}>
             <FaUserPlus className="md:text-xl text-lg" />
             <span>Register</span>

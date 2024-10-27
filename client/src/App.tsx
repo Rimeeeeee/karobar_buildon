@@ -21,6 +21,8 @@ import CreateInsurance from "./pages/CreateInsurance";
 import InsurancePage from "./pages/InsurancePage";
 import MyInsurance from "./pages/MyInsurance";
 import Merch from "./pages/Merch";
+import CombinedDataFetcher from "./pages/Work";
+import NftPlatforms from "./pages/Work1";
 
 export function App() {
   const { PeopleContract } = useKBRTokenContext();
@@ -55,6 +57,8 @@ export function App() {
               <Route path="/insurance/create" element={<CreateInsurance />} />
               <Route path="/insurance/myinsurance" element={<MyInsurance />} />
               <Route path="/insurance" element={<InsurancePage />} />
+              <Route path="/src-arg" element={<CombinedDataFetcher/>} />
+              <Route path="/marketstat" element={<NftPlatforms/>} />
               <Route
                 path="/following/:creatorAddress"
                 element={<FollowingPage contract={PeopleContract} />}
