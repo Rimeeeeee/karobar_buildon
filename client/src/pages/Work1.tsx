@@ -50,7 +50,7 @@ const NftPlatforms: React.FC = () => {
     const fetchData = async () => {
       try {
         const flipside = new Flipside(
-          "b2e57c4c-8561-4e68-b3d1-ed3f0bc6828b",
+          "0964614b-b72f-4092-a9e3-04b747cdb143",
           "https://api-v2.flipsidecrypto.xyz",
         )
 
