@@ -17,7 +17,7 @@ const Birds = () => {
           minWidth: 100.0,
           quantity: 5,
           scale: 1.2,
-          //   speedLimit: 4,
+          //speedLimit: 4,
           scaleMobile: 1.0,
           backgroundColor: 0x0,
           birdSize: 2.5,

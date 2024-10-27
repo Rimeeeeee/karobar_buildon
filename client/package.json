@@ -22,7 +22,7 @@
     "chart.js": "^4.4.5",
     "dot-env": "^0.0.1",
     "ethers": "^6.13.4",
-    "framer-motion": "^11.11.1",
+    "framer-motion": "11.11.1",
     "react": "^18.3",
     "react-chartjs-2": "^5.2.0",
     "react-currency-input-field": "^3.8.0",
@@ -30,7 +30,7 @@
     "react-icons": "^5.3.0",
     "react-router-dom": "^6.26.2",
     "thirdweb": "^5",
-    "vanta": "^0.5.24",
+    "vanta": "0.5.24",
     "viem": "^2.21.29",
     "wagmi": "^2.12.19"
   },
